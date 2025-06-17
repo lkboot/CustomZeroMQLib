@@ -1,0 +1,83 @@
+# ---- 通用忽略 ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ---- Visual Studio 相关 ----
+.vscode/
+*.code-workspace
+
+# VS 编译生成目录
+[Bb]uild*/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.tlog
+*.lastbuildstate
+*.log
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# VS 自动生成文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- CMake 相关 ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+out/
+compile_commands.json
+
+# ---- 压缩/临时包 ----
+*.zip
+*.tar.gz
+*.7z
+
+# ---- 编译输出 ----
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.out
+
+# ---- 覆盖率工具 ----
+*.gcda
+*.gcno
+*.gcov
+
+# ---- 单元测试 ----
+Testing/
+test-output/
+Catch2TestResults.xml
+*.testlog
+
+# ---- 编辑器临时文件 ----
+*~
+*.bak
+*.orig
+
+# ---- 如果你使用 Conan/Vcpkg ----
+.conan/
+vcpkg_installed/

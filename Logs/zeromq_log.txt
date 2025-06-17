@@ -1,0 +1,5 @@
+[2025-06-17 15:46:10.408] [zmq] [info] [ZMQSocketManager] Construct with mode: 4, send: tcp://localhost:9000, recv: 
+[2025-06-17 15:46:10.418] [zmq] [info] [Dealer] Connected to tcp://localhost:9000
+[2025-06-17 15:46:10.420] [zmq] [debug] [Dealer] Sent message size: 6
+[2025-06-17 15:46:12.435] [zmq] [warning] Recv timeout
+[2025-06-17 15:46:12.436] [zmq] [debug] [Dealer] Sent message size: 6

@@ -1,5 +1,8 @@
-[2025-06-17 15:46:10.408] [zmq] [info] [ZMQSocketManager] Construct with mode: 4, send: tcp://localhost:9000, recv: 
-[2025-06-17 15:46:10.418] [zmq] [info] [Dealer] Connected to tcp://localhost:9000
-[2025-06-17 15:46:10.420] [zmq] [debug] [Dealer] Sent message size: 6
-[2025-06-17 15:46:12.435] [zmq] [warning] Recv timeout
-[2025-06-17 15:46:12.436] [zmq] [debug] [Dealer] Sent message size: 6
+[2025-06-23 10:55:12.678] [zmq] [info] [ZMQSocketManager] Construct with mode: 0, send: tcp://*:8000, recv: 
+[2025-06-23 10:55:12.695] [zmq] [info] [PAIR] Bound to: tcp://*:8000
+[2025-06-23 10:55:20.739] [zmq] [info] [ZMQSocketManager] Destruct called
+[2025-06-23 10:55:20.740] [zmq] [debug] [ZMQSocketManager] Releasing pair
+[2025-06-23 10:55:20.931] [zmq] [debug] [PAIR] Exit io_loop
+[2025-06-23 10:55:20.932] [zmq] [info] [PAIR] Socket closed to tcp://*:8000
+[2025-06-23 10:55:20.933] [zmq] [debug] [ZMQSocketManager] Shutdown finish
+[2025-06-23 10:55:20.934] [zmq] [info] main exit

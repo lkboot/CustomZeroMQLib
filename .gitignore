@@ -54,14 +54,6 @@ compile_commands.json
 *.tar.gz
 *.7z
 
-# ---- 编译输出 ----
-*.exe
-*.dll
-*.lib
-*.so
-*.a
-*.out
-
 # ---- 覆盖率工具 ----
 *.gcda
 *.gcno

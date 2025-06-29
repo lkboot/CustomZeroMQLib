@@ -121,7 +121,7 @@ void run_subscriber() {
 
 void run_push() {
     ZMQSocketManager pusher(ZMQMode::PushPull, "tcp://*:7000", "");
-    std::this_thread::sleep_for(std::chrono::seconds(10));
+    std::this_thread::sleep_for(std::chrono::seconds(5));
 
     for (int i = 1; i <= 10; ++i) {
         std::string msg = "Pushed: " + std::to_string(i);
@@ -177,7 +177,6 @@ void run_dealer() {
     std::this_thread::sleep_for(std::chrono::seconds(10)); // 等待服务器响应
 }
 
-
 int main(int argc, char* argv[])
 {
     if (argc < 2) {
@@ -217,7 +216,7 @@ int main(int argc, char* argv[])
         run_pull();
     }
     else if (mode == "test") {
-        //run_concurrent_test();
+        
     }
     else {
         std::cout << "Unknown mode: " << mode << std::endl;
